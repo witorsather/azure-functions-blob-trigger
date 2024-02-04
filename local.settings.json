@@ -1,0 +1,7 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=glengatesteventgrid;AccountKey=9X18N6LRgZk//0sfoftlD9rqCgnx+k5BshAZe0YrjSYIbcy3cJfXl7YujODmZQfpM9d9wmfV2QBB+AStFZ9Rdw==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "java"
+  }
+}
