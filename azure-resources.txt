@@ -1,0 +1,8 @@
+Function App = samples-workitems-blob-function-app
+Storage Account = glengatesteventgrid
+Blob Container = samples-workitems
+Local Web Hook Http = http://localhost:7071/runtime/webhooks/blobs?functionName=Host.Functions.BlobTriggerEventGrid
+Local Web Hook Http with ngrok = https://02d7-2804-7f3-68b-62cb-1ddc-fb37-749c-b0a8.ngrok-free.app/runtime/webhooks/blobs?functionName=Host.Functions.BlobTriggerEventGrid
+Clould Web Hook Http = https://samples-workitems-blob-function-app.azurewebsites.net/runtime/webhooks/blobs?functionName=Host.Functions.BlobTriggerEventGrid&code=xgb-kmKkO7spkz3DdZ5glSPnNLldGqawWqJUROO8YUQkAzFu7FlxUQ==
+Local Event Subscription = myBlobAzureEventSubLocal
+Clould Event Subscription = myBlobAzureEventSubClould
